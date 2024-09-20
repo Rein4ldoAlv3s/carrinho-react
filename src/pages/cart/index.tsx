@@ -1,7 +1,5 @@
 export function Cart() {
     return (
-        <div>
-            <h1>Página Carrinho de Compras</h1>
-        </div>
+        <h1>Pagina Cart</h1>
     )
 }

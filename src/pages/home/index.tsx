@@ -1,7 +1,5 @@
 export function Home() {
     return (
-        <div>
-            <h1>Página Home</h1>
-        </div>
+        <h1>Pagina Home</h1>
     )
 }

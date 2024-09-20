@@ -1,23 +1,22 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Layout } from "./pages/components/layout";
 import { Home } from "./pages/home";
 import { Cart } from "./pages/cart";
+import { Layout } from "./pages/components/layout";
 
-
-const router = createBrowserRouter([
-  {
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />
-      },
-      {
-        path: "/cart",
-        element: <Cart />
-      }
-    ]
-  }
+const routes = createBrowserRouter([
+    {
+        element: <Layout />,
+        children: [
+            {
+                path: "/",
+                element: <Home />
+            },
+            {
+                path: "/cart",
+                element: <Cart />
+            }
+        ]
+    }
 ])
 
-export { router };
+export { routes }
