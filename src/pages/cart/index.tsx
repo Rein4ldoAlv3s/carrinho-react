@@ -1,5 +1,7 @@
 export function Cart() {
     return (
-        <h1>Pagina Cart</h1>
+        <div className="w-full max-w-7xl mx-auto">
+            <h1>Meu carrinho</h1>
+        </div>
     )
 }
